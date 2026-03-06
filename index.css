@@ -1,5 +1,9 @@
 a {
   color: rgb(0, 133, 133);
+  transition: color 0.15s;
+}
+a:hover {
+  color: rgb(255, 165, 28);
 }
 
 #id {
@@ -13,6 +17,16 @@ a {
   background-color: rgb(255, 216, 20);
   padding: 8px 16px;
   border: none;
+  cursor: pointer;
+  transition:
+    background-color 0.15s,
+    opacity 0.15s;
+}
+#btn:hover {
+  background-color: rgb(241, 207, 34);
+}
+#btn:active {
+  opacity: 0.5;
 }
 #btn-1 {
   border-radius: 20px;
@@ -20,4 +34,14 @@ a {
   border: none;
   margin-left: 20px;
   background-color: rgb(255, 165, 28);
+  cursor: pointer;
+  transition:
+    background-color 0.15s,
+    opacity 0.15s;
+}
+#btn-1:hover {
+  background-color: rgb(248, 157, 19);
+}
+#btn-1:active {
+  opacity: 0.5;
 }

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      a {
+        padding: 5px;
+      }
+      .btn {
+        width: 80px;
+        height: 30px;
+        transition: 0.5s ease;
+      }
+
+      .btn:hover {
+        width: 120px;
+        height: 50px;
+      }
+      .sdw {
+        height: 30px;
+        width: 80px;
+        box-shadow: 2px 2px 4px rgb(201, 200, 200);
+        cursor: pointer;
+      }
+      .sdw:active {
+        box-shadow: 0 0 0 white;
+        transform: translate(2px, 2px);
+      }
+      .stretch-button {
+        cursor: pointer;
+        padding: 8px 15px;
+        margin: 0px 10px;
+        transition:
+          padding 0.15s,
+          margin 0.15s;
+      }
+      .stretch-button:hover {
+        padding: 8px 25px;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="back">Back</button>
+    <a href="">1</a><a href="">2</a><a href="">3</a><a href="">4</a
+    ><a href="">5</a>
+    <button id="next">Next</button>
+    <br />
+    <br />
+    <button class="btn">Click Me</button>
+    <br />
+    <br />
+    <button class="sdw">Shadow</button>
+    <br />
+    <br />
+    <button class="stretch-button">One</button>
+    <button class="stretch-button">Two</button>
+    <button class="stretch-button">Three</button>
+  </body>
+</html>
