@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: black;
+      }
+      #one,
+      #two,
+      #three {
+        margin: 0 20px 0 50px;
+      }
+      #one {
+        width: 200px;
+        border-radius: 20px;
+      }
+      #two {
+        height: 150px;
+        width: 150px;
+        object-fit: cover;
+      }
+      #three {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      p {
+        color: gray;
+      }
+      #mail {
+        margin-bottom: 5px;
+      }
+      input {
+        width: 370px;
+      }
+      #agree {
+        width: 375px;
+        padding: 10px 18px;
+        color: white;
+        background-color: rgb(44, 130, 243);
+        border: none;
+        border-radius: 20px;
+        font-size: medium;
+      }
+      #four {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      #wp {
+        width: 300px;
+        border: none;
+        font-size: large;
+        background-color: black;
+      }
+      .btn {
+        padding: 8px 16px;
+        border-radius: 20px;
+        border: none;
+        background-color: rgb(80, 136, 255);
+        font-weight: bold;
+        color: white;
+      }
+      #four,
+      #wp,
+      .btn {
+        vertical-align: middle;
+      }
+    </style>
+  </head>
+  <body>
+    <img id="one" src="cat.jpg" alt="cat-image" />
+    <img id="two" src="cat.jpg" alt="cat-image" />
+    <img id="three" src="cat.jpg" alt="cat-image" />
+    <br /><br /><br />
+    <p id="mail">Email</p>
+    <input type="text" />
+    <p>By Clicking Agree & Join, you agree to the Privacy Policy.</p>
+    <button id="agree">Agree and Join</button>
+    <br /><br /><br />
+    <div>
+      <img id="four" src="cat.jpg" alt="cat-image" />
+      <input type="text" placeholder="What's happening?" id="wp" />
+      <button class="btn">Tweet</button>
+    </div>
+  </body>
+</html>
