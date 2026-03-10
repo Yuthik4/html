@@ -8,55 +8,61 @@
       a {
         padding: 5px;
       }
-      .btn {
-        width: 80px;
-        height: 30px;
-        transition: 0.5s ease;
+      #h4 {
+        padding: 7px 5px;
       }
-
-      .btn:hover {
-        width: 120px;
-        height: 50px;
-      }
-      .sdw {
-        height: 30px;
-        width: 80px;
-        box-shadow: 2px 2px 4px rgb(201, 200, 200);
+      #i4 {
+        background-color: green;
+        color: white;
+        border: none;
+        font-size: 18px;
+        padding: 10px 16px;
         cursor: pointer;
+        transition: padding 0.5s;
       }
-      .sdw:active {
+      #i4:hover {
+        padding: 20px 32px;
+      }
+      #j4 {
+        background-color: green;
+        color: white;
+        border: none;
+        font-size: 18px;
+        padding: 10px 16px;
+        cursor: pointer;
+        box-shadow: 2px 2px 4px black;
+      }
+      #j4:active {
         box-shadow: 0 0 0 white;
-        transform: translate(2px, 2px);
+        transform: translate(4px, 4px);
       }
-      .stretch-button {
+      #k4 {
+        background-color: green;
+        color: white;
+        border: none;
+        font-size: 18px;
+        padding: 10px 16px;
         cursor: pointer;
-        padding: 8px 15px;
-        margin: 0px 10px;
-        transition:
-          padding 0.15s,
-          margin 0.15s;
+        margin: 0px 20px;
       }
-      .stretch-button:hover {
-        padding: 8px 25px;
+      #k4:hover {
+        padding: 10px 36px;
         margin: 0;
       }
     </style>
   </head>
   <body>
-    <button id="back">Back</button>
+    <button id="h4">Back</button>
     <a href="">1</a><a href="">2</a><a href="">3</a><a href="">4</a
     ><a href="">5</a>
-    <button id="next">Next</button>
-    <br />
-    <br />
-    <button class="btn">Click Me</button>
-    <br />
-    <br />
-    <button class="sdw">Shadow</button>
-    <br />
-    <br />
-    <button class="stretch-button">One</button>
-    <button class="stretch-button">Two</button>
-    <button class="stretch-button">Three</button>
+    <button id="h4">Next</button>
+    <br /><br /><br /><br />
+    <button id="i4">Stretch</button>
+    <br /><br /><br /><br />
+    <button id="j4">Shadow</button>
+    <br /><br /><br /><br />
+    <button id="k4">One</button>
+    <button id="k4">Two</button>
+    <button id="k4">Three</button>
   </body>
 </html>
